@@ -1,12 +1,7 @@
-import MyStack from "./MyStack";
+import MyStack from "./storagestack.py";
 
 export default function main(app) {
   // Set default runtime for all functions
-  app.setDefaultFunctionProps({
-    runtime: "python3.7"
-  });
-
-  new MyStack(app, "my-stack");
-
+  new StorageStack(app, "storage")
   // Add more stacks
 }
