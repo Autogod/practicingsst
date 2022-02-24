@@ -1,4 +1,3 @@
-from tkinter import E
 import boto3
 from botocore.exceptions import ClientError
 import logging
